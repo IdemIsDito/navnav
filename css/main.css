@@ -1,0 +1,24 @@
+body {
+  padding-top: 80px;
+  padding-bottom: 20px;
+}
+
+.skip-link {
+  position: absolute;
+  top:-70px;
+  z-index: 1040;
+  background: #777;
+  line-height: 20px;
+  padding: 15px;
+}
+
+.skip-link:focus {
+  top: 15px;
+  left: 15px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.banner-image {
+  margin-bottom: 20px;
+}
